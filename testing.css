@@ -1,0 +1,67 @@
+body{
+    overflow: hidden;
+    background-image: url("wall.jpg");
+    background-position: center;
+}
+.maindiv{
+    width: auto;
+    height: 100%;
+}
+.logo_contain{
+    border: 2px solid #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.wedslogo{
+    height: 320px;
+    width: auto;
+    margin-top: 60px;
+    position: absolute;
+}
+.heading{
+    font-size: 40px;
+    color: #07b6f5;
+}
+.tab_button{
+    background-color: #07b6f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+.tab_button:hover{
+    padding: 10px 30px;
+    text-decoration: none;
+    word-spacing: 20px;
+}
+.tab_button i{
+    color: white;
+    font-size: 25px;
+    margin: 0px 20px;
+}
+.tab_button p{
+    color: white;
+    font-size: 25px;
+    margin: 0px 20px;
+    text-decoration: none;
+}
